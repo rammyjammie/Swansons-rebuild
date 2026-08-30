@@ -1,10 +1,10 @@
 # Image assets
 
-Drop the real brand and project files in here. Filenames referenced by the site:
+Drop the real brand and project files in here. Everything currently in this folder is a placeholder. Filenames referenced by the site:
 
 | File | Used by | Notes |
 | --- | --- | --- |
-| `logo.svg` | header + footer on every page | Currently a placeholder mark. Replace this file (keep the name) and the whole site updates. SVG preferred; a PNG works if you also change the `src` in each page's header. |
+| `logo.svg` | header + footer on every page | Currently a dashed placeholder mark. Replace this file (keep the name) and the whole site updates. SVG preferred; a PNG works if you also change the `src` in each page's header. |
 | `favicon.svg` | browser tab icon | Placeholder. |
 | `hero.jpg` | homepage hero | Not yet wired up — see the commented `<img>` slot in `index.html`. Landscape, ~1600×1200 or larger. |
 | `project-01.jpg` … `project-06.jpg` | projects gallery | Square-ish or 4:3 shots of finished work. |
