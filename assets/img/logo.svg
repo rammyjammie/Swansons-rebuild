@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Swanson's Welding and Fabrication">
+  <title>Swanson's Welding &amp; Fabrication</title>
+  <path d="M32 2 58 15v22c0 12-11 20-26 25C17 57 6 49 6 37V15L32 2Z" fill="#0b0e12"/>
+  <path d="M32 2 58 15v22c0 12-11 20-26 25C17 57 6 49 6 37V15L32 2Z" fill="none" stroke="#ff6a13" stroke-width="2.5"/>
+  <path d="M20 40c6 3 12 3 18 0" fill="none" stroke="#ff6a13" stroke-width="2.5" stroke-linecap="round"/>
+  <text x="32" y="35" text-anchor="middle" font-family="Barlow Condensed, Arial Narrow, sans-serif"
+        font-size="24" font-weight="700" fill="#ffffff" letter-spacing="1">SW</text>
+</svg>
