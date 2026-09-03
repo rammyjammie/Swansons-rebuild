@@ -1,0 +1,15 @@
+{
+  "source": "https://swansonswelding.com/",
+  "pages": {
+    "https://swansonswelding.com/": "index.html",
+    "https://swansonswelding.com/?page_id=2": "services.html",
+    "https://swansonswelding.com/?page_id=71": "about-us.html",
+    "https://swansonswelding.com/?page_id=69": "contact-swansons.html",
+    "https://swansonswelding.com/?page_id=70": "products.html"
+  },
+  "asset_count": 176,
+  "failed": [
+    "https://swansonswelding.com/wp-content/themes/fotawp/assets/fonts/open-sans/OpenSans-VariableFont_wght.ttf",
+    "https://swansonswelding.com/wp-content/themes/fotawp/assets/fonts/open-sans/OpenSans-Italic-VariableFont_wght.ttf"
+  ]
+}

@@ -1,0 +1,28 @@
+/*
+Theme Name: Overblocks
+Author: CozyThemes
+Author URI: https://cozythemes.com/
+Description: Overblocks serves as the child theme of FotaWP, inheriting all the features of FotaWP. It has been designed for the multipupose site builder and offers block-based full site editing capabilities.  It's minimal and clean design allows users to create various types of agency website, startup, freelancer, coaching, public speakers, social media influencer, digital media and tech industry, seo business and digital marketing agency, tech company, counselling, consulting any other kind of cooperative business site and more.
+Template: fotawp
+Version: 1.0.2
+Requires at least: 5.9
+Tested up to: 6.5
+Requires PHP: 7.0
+License: GPLv3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: overblocks
+Tags: blog, one-column, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, e-commerce, full-site-editing, block-patterns, full-width-template, rtl-language-support, threaded-comments, translation-ready, block-styles, wide-blocks
+*/
+
+nav.wp-block-navigation ul li a:hover,
+.wp-block-button.is-style-outline a:hover {
+  color: var(--wp--preset--color--primary) !important;
+}
+.entry-content.wp-block-post-content a,
+.wp-block-comment-content a,
+p a {
+  text-decoration: underline;
+}
+.wp-block-navigation .wp-block-navigation__responsive-container-content {
+  padding-left: 20px;
+}
