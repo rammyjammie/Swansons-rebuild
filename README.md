@@ -1,23 +1,23 @@
-# Swansons Welding & Fabrication — site mirror
+# Swanson's Welding & Fabrication — website redesign
 
-Static snapshot of https://swansonswelding.com captured 2026-09-02 as the
-starting point for a revamp. Cloned with the site owner's permission.
+Static redesign of https://swansonswelding.com. Plain HTML, one stylesheet,
+one small script. No build step, no framework.
 
-## What's here
+## Pages
 
-| File | Source page |
+| File | Page |
 |---|---|
-| `index.html` | `/` (home) |
-| `services.html` | `/?page_id=2` |
-| `products.html` | `/?page_id=70` |
-| `about-us.html` | `/?page_id=71` |
-| `contact-swansons.html` | `/?page_id=69` |
+| `index.html` | Home |
+| `services.html` | Services (welding & fabrication, machine shop, design) |
+| `products.html` | Products, PPE Cubby brochure |
+| `about.html` | About, leadership |
+| `contact.html` | Contact info and quote form |
 
-`wp-content/` and `wp-includes/` hold every same-host asset the pages
-reference (theme CSS/JS, plugin CSS/JS, uploaded images, fonts, the Cubby
-brochure PDF). All references were rewritten to relative paths, so the
-snapshot opens fully offline. `MIRROR-MANIFEST.json` lists the page map and
-the two Open Sans TTFs that 404 on the live server too.
+`assets/css/styles.css` holds all styling. `assets/js/main.js` handles the
+mobile menu, current-page highlight, back-to-top button, and the contact
+form. `assets/img/` has the logo mark; `assets/doc/` has the Cubby brochure.
+
+Stock photography sources and credits are in `STOCK-IMAGES.md`.
 
 ## Preview locally
 
@@ -27,12 +27,20 @@ python -m http.server 8765
 
 Then open http://localhost:8765/.
 
-## Notes for the revamp
+## Design notes
 
-- The original is WordPress (FotaWP theme, Cozy Addons, Forminator). The HTML
-  is bloated with inline block CSS; treat it as a content and asset reference,
-  not a codebase to extend.
-- The contact form posted to WordPress (Forminator). It will not submit from
-  the static copy.
-- Canonical / og:url / RSS / REST links still point at the live domain
-  intentionally.
+- Header is a persistent dark bar: logo mark, wordmark in Chakra Petch, nav
+  links, and a quote button. Collapses to a hamburger below 900px.
+- Fonts: Chakra Petch for the wordmark and headings, Plus Jakarta Sans for
+  body text, both from Google Fonts.
+- Accent color is an ember orange (`--accent` in `styles.css`). Change the
+  CSS variables at the top of the stylesheet to retheme.
+- The contact form has no backend yet. Submitting opens the visitor's mail
+  client with the fields pre-filled. Swap in Formspree, Netlify Forms, or
+  similar when hosting is decided.
+
+## Original site
+
+`original/` is an untouched offline mirror of the WordPress site as captured
+on 2026-09-02, kept for reference (copy, brochure, old images). It is not
+linked from the new pages.
