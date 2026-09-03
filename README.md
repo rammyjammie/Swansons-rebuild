@@ -19,6 +19,10 @@ form. `assets/img/` has the logo mark; `assets/doc/` has the Cubby brochure.
 
 Stock photography sources and credits are in `STOCK-IMAGES.md`.
 
+## Live preview
+
+https://rammyjammie.github.io/Swansons-rebuild/ (GitHub Pages, rebuilds on every push to `main`, usually within a minute)
+
 ## Preview locally
 
 ```bash
